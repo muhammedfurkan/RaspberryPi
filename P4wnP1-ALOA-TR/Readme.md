@@ -24,7 +24,7 @@ Etcher ile hafıza kartımıza framework'ü flashladıktan sonra sistemimiz tama
 - SSH: `172.24.0.1:22` Kullanıcı Adı: `root` Şifresi: `toor`
 
 ## |🇹🇷| HID Ducky Payload'ların Türkçe Kullanımı
-- [P4wnP1-ALOA-HID-Payload](https://github.com/KekikAkademi/RaspberryPi/tree/master/P4wnP1-ALOA-HID-Payload "P4wnP1-ALOA-HID-Payload")
+- [KekikPayload](https://github.com/KekikAkademi/RaspberryPi/tree/master/P4wnP1-ALOA-TR/Payloads/KekikPayload "KekikPayload")
 
 **HID Ducky Payload**'lar genelde _**US** Keymap_ (Klavye Düzeni) kullanıyor. P4wnP1 Aloa için yazılmış **Türkçe** _Keymap olmadığı için_ bunun önüne şöyle geçmeyi başardım;
 Kurban bilgisayara **US klavye düzeni indiriyoruz.** Windows İşletim Sisteminde `Alt+Shift` kombinasyonuyla _klavye düzenleri arasında geçiş yapabiliyoruz._ Bu sayede elimizdeki payloadları sorunsuz kullanabiliriz.
