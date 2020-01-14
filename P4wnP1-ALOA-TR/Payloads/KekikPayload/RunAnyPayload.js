@@ -10,7 +10,7 @@ delay(500);
 // put your payload on the UMS of 4GB_DISK 
 // replace hello.vbs by yourpayloadname.exe line 21
 
-layout('us') // set layout keyboard FR
+layout('us') // set layout keyboard US
 
 press("GUI r") // win + r
 delay(200)
